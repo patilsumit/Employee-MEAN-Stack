@@ -1,0 +1,18 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Employee Management Systems</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" 
+  data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+   aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li [routerLinkActive]="['active']" class="btn btn-outline-warning mr-2"><a [routerLink]="['/home']">Home</a>
+      </li>
+      <li [routerLinkActive]="['active']"><a [routerLink]="['/employee/create']" class="btn btn-outline-warning">Add Employee</a>   
+      </li>
+    </ul>
+    
+  </div>
+</nav>
